@@ -1,0 +1,14 @@
+/* Coach Select */
+.coachSelectButtonSection {
+    margin-top: 25px;
+    border: 1px solid #d3d3d3;
+    padding: 25px;
+    width: 300px;
+  }
+  .coachSelectButtonSection:hover {
+    cursor: pointer;
+    outline: 1px solid orange;
+  }
+  .coachnametext {
+    font-size: 25px;
+  }

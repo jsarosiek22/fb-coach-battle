@@ -1,0 +1,55 @@
+/* Team View */
+.playerCardOutline {
+    height: 150px;
+    width: 100px;
+    border: 5px solid#696969;
+    background-color: #c0c0c0;
+    transition: all 0.2s ease-in-out;
+    font-size: 8px;
+  }
+  .playerCardOutline:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  .playerCardTopSection {
+    display: flex;
+  }
+  .playerCardImageHolder {
+    height: 75px;
+    width: 50%;
+  }
+  .playerCardImg{
+      width: 100%;
+      height: 100%
+  }
+
+  .playerSkillsTable{
+      width: 100%;
+  }
+  
+  .offensiveLinemenLineup {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+  .wideReceiverLeftLineup {
+    display: flex;
+    width: 360px;
+  }
+  .tightEndLineup {
+    display: flex;
+    width: 110px;
+  }
+  .wideReceiverRightLineup {
+    display: flex;
+    width: 110px;
+  }
+  .quarterbackLineup{
+      margin-top: 25px;
+  }
+  .fullbackLineup{
+    margin-top: 25px;
+}
+.runningbackLineup{
+    margin-top: 25px;
+}

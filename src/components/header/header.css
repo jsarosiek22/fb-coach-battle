@@ -1,0 +1,91 @@
+/* MAIN STYLING */
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 108.88px;
+  background-image: URL("/images/fbfieldbg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+/* END MAIN STYLING */
+
+/* HEADER STYLING */
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+.flexboxcenter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headermenu {
+  margin-left: 10%;
+}
+
+.headermenu a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: 20px;
+}
+/* END HEADER STYLING */
+
+/* COLOR PALETE */
+/* Background */
+/* Vermillion and Russian Green */
+.bgcolordkorange {
+  background-color: #dc3d24;
+}
+
+.bgcolorcharcoal {
+  background-color: #232b2b;
+}
+
+.bgcolorltcharcoal {
+  background-color: #384040;
+}
+
+.bgcolormustard {
+  background-color: #e3ae57;
+}
+
+.bgcolorwhite {
+  background-color: #ffffff;
+}
+
+.bgcolornotepadyellow {
+  background-color: #ece63d;
+}
+
+/* Font Colors */
+.colordkorange {
+  color: #dc3d24;
+}
+
+.colorcharcoal {
+  color: #232b2b;
+}
+
+.colormustard {
+  color: #e3ae57;
+}
+
+.colorwhite {
+  color: #ffffff;
+}
+/* END COLOR PALETTE */
