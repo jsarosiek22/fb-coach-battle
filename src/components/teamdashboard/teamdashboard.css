@@ -1,4 +1,17 @@
 /* Team View */
+.teamdashoverview{
+  width: 10%;
+  margin: 25px;
+  outline: 1px solid black;
+  padding: 5px;
+}
+.teamdashdetails{
+  width: 90%;
+  margin: 25px;
+  padding: 5px;
+  outline: 1px solid black;
+}
+
 .playerCardOutline {
     height: 150px;
     width: 100px;
@@ -27,6 +40,7 @@
       width: 100%;
   }
   
+  /* OFFENSE */
   .offensiveLinemenLineup {
     display: flex;
     justify-content: space-between;
@@ -52,4 +66,41 @@
 }
 .runningbackLineup{
     margin-top: 25px;
+}
+
+/* DEFENSE */
+.cornerbackLeftLineup {
+  display: flex;
+}
+
+.defensiveLinemenLineup {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.cornerbackRightLineup {
+  display: flex;
+}
+
+.linebackerGroupLineup{
+  display: flex;
+  justify-content: center;
+}
+
+.linebackerLineup{
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: 25px;
+}
+
+.freeSafteyLineup{
+  display:flex;
+  width: 360px;
+  margin-top: 25px;
+}
+.stronSafteyLineup{
+  display:flex;
+  width: 360px;
+  margin-top: 25px;
 }

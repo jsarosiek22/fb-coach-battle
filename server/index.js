@@ -16,7 +16,7 @@ const {
 const {
   response
 } = require('express');
-require('./env');
+require('./ROenv');
 //const uri = `mongodb+srv://${global.username}:${global.password}@${global.clust}/betmark?retryWrites=true&w=majority`;
 
 const app = express();
@@ -65,6 +65,28 @@ app.get('/api/coachselect', (req, res) => {
 
 app.get('/api/baseteam', (req, res) => {
   dbconnect("baseteam").then(result => {
+    res.send(JSON.stringify({
+      result
+    }));
+  }).catch(err => {
+    console.log(err);
+    res.sendStatus(502);
+  });
+});
+
+app.get('/api/freeagents', (req, res) => {
+  dbconnect("freeagents").then(result => {
+    res.send(JSON.stringify({
+      result
+    }));
+  }).catch(err => {
+    console.log(err);
+    res.sendStatus(502);
+  });
+});
+
+app.get('/api/draftplayers', (req, res) => {
+  dbconnect("draftplayers").then(result => {
     res.send(JSON.stringify({
       result
     }));
